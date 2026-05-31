@@ -1,0 +1,24 @@
+# Large input data (consumer file > GitHub 100 MB limit)
+*.parquet
+
+# Rubric / screenshot images, not part of the project
+Screenshot*.png
+
+# Notebook outputs / artifacts
+hidden_entrepreneurs.csv
+results.png
+
+# Generated presentation artifacts
+*.pptx
+qr_*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
